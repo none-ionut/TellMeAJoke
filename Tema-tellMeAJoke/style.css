@@ -1,0 +1,40 @@
+body {
+  min-height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  background: url(JA3J.gif);
+  background-repeat: round;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  gap: 30px;
+}
+
+button {
+  cursor: pointer;
+  width: 250px;
+  background: #ff34ff;
+  border: none;
+  color: aliceblue;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 25px 15px rgba(0, 0, 0, 0.6);
+}
+#speech {
+  background-color: rgb(31, 29, 90);
+  opacity: 75%;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(226, 225, 207);
+  border-radius: 25px;
+}
+#button {
+  background-color: rgb(3, 3, 134);
+  opacity: 85%;
+}
